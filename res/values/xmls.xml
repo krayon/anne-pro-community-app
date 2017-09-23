@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="gatt_uuid">res/xml/gatt_uuid.xml</xml>
+    <xml name="popup">res/xml/popup.xml</xml>
+    <xml name="preferences">res/xml/preferences.xml</xml>
+</resources>

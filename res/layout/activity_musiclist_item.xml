@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.obins.anne" robinwatch:orientation="vertical" robinwatch:layout_width="match_parent" robinwatch:layout_height="wrap_content">
+    <RelativeLayout robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x2601">
+        <TextView robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/title_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="15dp" robinwatch:text="小苹果" robinwatch:layout_centerVertical="true" />
+        <RelativeLayout robinwatch:id="@+id/right_RelativeLayout" robinwatch:layout_width="UNKNOWN_DATA_0x2601" robinwatch:layout_height="UNKNOWN_DATA_0x2601" robinwatch:layout_alignParentRight="true">
+            <com.obins.anne.viewpart.CircleView robinwatch:id="@+id/right_CircleView" robinwatch:layout_width="UNKNOWN_DATA_0xc01" robinwatch:layout_height="UNKNOWN_DATA_0xc01" robinwatch:layout_centerInParent="true" robinwatch:fill_color="@color/green" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

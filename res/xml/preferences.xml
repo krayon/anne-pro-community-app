@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.ti.sensortag">
+    <PreferenceCategory example:title="Sensors online">
+        <CheckBoxPreference example:persistent="true" example:title="Simple keys" example:key="pref_simple_keys_on" example:summary="Turn the Simple keys service on or off." example:defaultValue="true" />
+        <CheckBoxPreference example:persistent="true" example:title="Accelerometer" example:key="pref_accelerometer_on" example:summary="Turn the Accelerometer service on or off." example:defaultValue="true" />
+        <CheckBoxPreference example:persistent="true" example:title="Magnetometer" example:key="pref_magnetometer_on" example:summary="Turn the Magnetometer service on or off." example:defaultValue="true" />
+        <CheckBoxPreference example:persistent="true" example:title="Gyroscope" example:key="pref_gyroscope_on" example:summary="Turn the Gyroscope service on or off." example:defaultValue="false" />
+        <CheckBoxPreference example:persistent="true" example:title="IR and Ambient Temperature" example:key="pref_ir_temperature_on" example:summary="Turn the IR and Ambient Temperature service on or off." example:defaultValue="false" />
+        <CheckBoxPreference example:persistent="true" example:title="Humidity" example:key="pref_humidity_on" example:summary="Turn the Humidity service on or off." example:defaultValue="false" />
+        <CheckBoxPreference example:persistent="true" example:title="Barometer" example:key="pref_barometer_on" example:summary="Turn the Barometer service on or off." example:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

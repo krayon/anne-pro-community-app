@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/main_bk_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="21sp" android:textColor="@color/main_font_orange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="@string/welcome_use_obins" android:layout_centerHorizontal="true" />
+        <ImageView android:background="@drawable/no_device_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:textSize="11sp" android:textColor="@color/main_font_orange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="@string/no_device_tip" android:layout_above="@+id/goOn_Button" android:layout_centerHorizontal="true" />
+        <Button android:textSize="13sp" android:textColor="@color/main_font_orange" android:id="@+id/goOn_Button" android:background="@drawable/gradientbutton_transparent_halfcircle_orange" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2601" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:layout_marginBottom="20dp" android:text="@string/goon_tip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

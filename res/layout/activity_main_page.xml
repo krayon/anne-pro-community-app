@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.obins.anne" obins:layout_width="match_parent" obins:layout_height="match_parent">
+    <com.obins.anne.viewpart.RobinViewPager obins:id="@+id/viewpager" obins:layout_width="match_parent" obins:layout_height="match_parent" />
+    <RelativeLayout obins:id="@+id/top_RelativeLayout" obins:layout_width="match_parent" obins:layout_height="UNKNOWN_DATA_0x3201" obins:layout_alignParentTop="true">
+        <TextView obins:textSize="18sp" obins:textColor="@color/main_bk_white" obins:id="@+id/toptitle_TextView" obins:layout_width="wrap_content" obins:layout_height="wrap_content" obins:text="设置" obins:layout_centerInParent="true" />
+        <TextView obins:textSize="13sp" obins:textColor="@color/main_bk_white" obins:id="@+id/lefttitle_TextView" obins:padding="5dp" obins:layout_width="wrap_content" obins:layout_height="wrap_content" obins:layout_marginLeft="0dp" obins:layout_marginBottom="0dp" obins:text="设置" obins:layout_alignParentLeft="true" obins:layout_alignParentBottom="true" />
+        <TextView obins:textSize="13sp" obins:textColor="@color/main_bk_white" obins:id="@+id/righttitle_TextView" obins:padding="5dp" obins:layout_width="wrap_content" obins:layout_height="wrap_content" obins:layout_marginRight="0dp" obins:layout_marginBottom="0dp" obins:text="设置" obins:layout_alignParentRight="true" obins:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,98 @@
+package com.obins.anne.viewpart;
+
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.Typeface;
+import android.graphics.drawable.ColorDrawable;
+import android.util.AttributeSet;
+import android.view.MotionEvent;
+import android.view.View;
+import android.widget.TextView;
+import com.obins.anne.C0182R;
+
+public class SideBar extends View {
+    public static String[] f2b = new String[]{"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "#"};
+    private int choose = -1;
+    private TextView mTextDialog;
+    private OnTouchingLetterChangedListener onTouchingLetterChangedListener;
+    private Paint paint = new Paint();
+
+    public interface OnTouchingLetterChangedListener {
+        void onTouchingLetterChanged(String str);
+    }
+
+    public void setTextView(TextView mTextDialog) {
+        this.mTextDialog = mTextDialog;
+    }
+
+    public SideBar(Context context, AttributeSet attrs, int defStyle) {
+        super(context, attrs, defStyle);
+    }
+
+    public SideBar(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    public SideBar(Context context) {
+        super(context);
+    }
+
+    protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
+        int height = getHeight();
+        int width = getWidth();
+        int singleHeight = height / f2b.length;
+        for (int i = 0; i < f2b.length; i++) {
+            this.paint.setColor(Color.rgb(33, 65, 98));
+            this.paint.setTypeface(Typeface.DEFAULT_BOLD);
+            this.paint.setAntiAlias(true);
+            this.paint.setTextSize(20.0f);
+            if (i == this.choose) {
+                this.paint.setColor(Color.parseColor("#3399ff"));
+                this.paint.setFakeBoldText(true);
+            }
+            canvas.drawText(f2b[i], ((float) (width / 2)) - (this.paint.measureText(f2b[i]) / 2.0f), (float) ((singleHeight * i) + singleHeight), this.paint);
+            this.paint.reset();
+        }
+    }
+
+    public boolean dispatchTouchEvent(MotionEvent event) {
+        int action = event.getAction();
+        float y = event.getY();
+        int oldChoose = this.choose;
+        OnTouchingLetterChangedListener listener = this.onTouchingLetterChangedListener;
+        int c = (int) ((y / ((float) getHeight())) * ((float) f2b.length));
+        switch (action) {
+            case 1:
+                setBackgroundDrawable(new ColorDrawable(0));
+                this.choose = -1;
+                invalidate();
+                if (this.mTextDialog != null) {
+                    this.mTextDialog.setVisibility(4);
+                    break;
+                }
+                break;
+            default:
+                setBackgroundResource(C0182R.drawable.sidebar_background);
+                if (oldChoose != c && c >= 0 && c < f2b.length) {
+                    if (listener != null) {
+                        listener.onTouchingLetterChanged(f2b[c]);
+                    }
+                    if (this.mTextDialog != null) {
+                        this.mTextDialog.setText(f2b[c]);
+                        this.mTextDialog.setVisibility(0);
+                    }
+                    this.choose = c;
+                    invalidate();
+                    break;
+                }
+        }
+        return true;
+    }
+
+    public void setOnTouchingLetterChangedListener(OnTouchingLetterChangedListener onTouchingLetterChangedListener) {
+        this.onTouchingLetterChangedListener = onTouchingLetterChangedListener;
+    }
+}

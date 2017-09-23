@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:background="@drawable/gradientbutton_blue_halfcircle_23" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="5dp" />
+    <com.obins.anne.viewpart.RobinListView android:id="@+id/staticLightEffect_listView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_marginTop="38dp" android:layout_marginRight="5dp" android:layout_marginBottom="38dp" android:divider="0x0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="3.0">
+        <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_weight="1.0">
+            <View android:background="@color/blue" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

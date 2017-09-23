@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/main_bottom" android:background="@color/main_bk_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4601" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageButton android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/music_album__btn" android:background="@drawable/photo01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3701" android:layout_marginLeft="12dp" android:layout_marginRight="12dp"
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="10sp" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/music_preform_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2:30" />
+                <SeekBar android:id="@+id/music_durtion_sBar" android:paddingLeft="10dp" android:paddingRight="10dp" android:focusable="true" android:layout_width="UNKNOWN_DATA_0xc801" android:layout_height="wrap_content" android:progressDrawable="@drawable/seekbar_progress" android:minHeight="2dp" android:thumb="@drawable/seekbar_thumb" />
+                <TextView android:textSize="10sp" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/music_durtion_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3:18" />
+            </LinearLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+                    <TextView android:textSize="12sp" android:id="@+id/music_title_tx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="test" />
+                    <TextView android:textSize="15sp" android:id="@+id/music_article_tx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="test" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_alignParentRight="true">
+                    <ImageButton android:id="@+id/bottom_play_btn" android:background="@drawable/bottom_pause" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" />
+                    <ImageButton android:id="@+id/bottom_next_btn" android:background="@drawable/bottom_next" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" />
+                    <ImageButton android:id="@+id/music_history_btn" android:background="@drawable/list_history" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

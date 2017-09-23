@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/main_bk_black" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@+id/relativeLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/down_ImageView" android:background="@drawable/micro_key_down_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@+id/up_ImageView" android:background="@drawable/micro_key_up_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:textSize="23sp" android:textColor="@color/main_font_gray" android:id="@+id/name_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FN" android:layout_centerInParent="true" />
+        <LinearLayout android:orientation="vertical" android:id="@+id/view_LinearLayout" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="4.0">
+            <RelativeLayout android:id="@+id/click_RelativeLayout1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <TextView android:textSize="12sp" android:textColor="@color/main_bk_white" android:id="@+id/time_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100ms" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/click_RelativeLayout2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="2.0" />
+            <RelativeLayout android:id="@+id/click_RelativeLayout3" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <TextView android:textSize="9sp" android:textColor="@color/main_bk_white" android:id="@+id/num_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

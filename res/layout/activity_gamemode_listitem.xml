@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/main_bk_white" android:padding="2dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/logoImageView" android:background="@drawable/light_chandelier_on_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_centerVertical="true" />
+    <ImageView android:id="@+id/selectImageView" android:background="@drawable/select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="16sp" android:textColor="@color/font_color_gray" android:id="@+id/nameTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="英雄联盟" android:layout_toRightOf="@+id/logoImageView" android:layout_centerVertical="true" />
+</RelativeLayout>

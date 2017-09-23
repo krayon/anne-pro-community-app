@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.obins.anne" robinwatch:orientation="vertical" robinwatch:background="@color/main_bk_black" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent">
+    <RelativeLayout robinwatch:id="@+id/tip_RelativeLayout" robinwatch:background="@color/main_bk_gray" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x3001"
+        <RelativeLayout robinwatch:id="@+id/backBtn" robinwatch:paddingLeft="5dp" robinwatch:paddingRight="8dp" robinwatch:layout_width="wrap_content" robinwatch:layout_height="match_parent" robinwatch:layout_centerVertical="true">
+            <ImageView robinwatch:background="@drawable/menu_return" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="10dp" robinwatch:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView robinwatch:textSize="18sp" robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/activity_title_tv" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:text="@string/setting_device_list" robinwatch:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ListView robinwatch:id="@+id/listview" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:divider="0x0" />
+</LinearLayout>

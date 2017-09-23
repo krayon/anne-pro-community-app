@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/main_bk_black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/tip_RelativeLayout" android:background="@color/main_top_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001"
+        <RelativeLayout android:id="@+id/back_RelativeLayout" android:paddingLeft="15dp" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001">
+            <ImageView android:background="@drawable/menu_return" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="18sp" android:textColor="@color/main_font_green" android:id="@+id/activity_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="@string/setting_ble_fw" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:id="@+id/progressBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:max="100" android:progressDrawable="@drawable/progressbar_color" android:layout_centerInParent="true" style="?unknown_attr_ref: 1010078" />
+        <TextView android:textColor="@color/main_bk_white" android:id="@+id/progressBartip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="88%" android:layout_below="@+id/progressBar" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@+id/top_ImageView" android:background="@drawable/ic_launcher" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:layout_above="@+id/tip" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="@color/main_bk_white" android:id="@+id/tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50dp" android:text="版本提示" android:layout_above="@+id/progressBar" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="@color/main_bk_white" android:id="@+id/newversiontip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="版本更新提示" android:layout_above="@+id/progressBar" android:layout_centerHorizontal="true" />
+        <Button android:textColor="@color/main_bk_white" android:id="@+id/mainmcuupdate_btn" android:background="@drawable/gradientbutton_cyan" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2e01" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="80dp" android:text="升级主控" android:layout_alignParentBottom="true" />
+        <Button android:textColor="@color/main_bk_white" android:id="@+id/lightmcuupdate_btn" android:background="@drawable/gradientbutton_cyan" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2e01" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="200dp" android:text="升级主控" android:layout_alignParentBottom="true" />
+        <Button android:textColor="@color/main_bk_white" android:id="@+id/start_btn" android:background="@drawable/gradientbutton_cyan" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2e01" android:layout_margin="20dp" android:text="@string/setting_check_fw_ver" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

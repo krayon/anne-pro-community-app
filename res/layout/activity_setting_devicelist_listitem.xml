@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.obins.anne" robinwatch:background="#000000" robinwatch:paddingBottom="5dp" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent"
+    <RelativeLayout robinwatch:id="@+id/bk_RelativeLayout" robinwatch:background="@color/main_bk_gray" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x6401" robinwatch:layout_margin="5dp">
+        <TextView robinwatch:textSize="20sp" robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/nameTextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="30dp" robinwatch:text="ANNE PRO" robinwatch:layout_centerVertical="true" />
+        <TextView robinwatch:textSize="11sp" robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/macTextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="30dp" robinwatch:text="32:45" robinwatch:layout_below="@+id/nameTextView" />
+        <TextView robinwatch:textSize="11sp" robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/stateTextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginRight="15dp" robinwatch:text="未连接" robinwatch:layout_alignParentRight="true" robinwatch:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

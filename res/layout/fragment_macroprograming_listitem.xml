@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.obins.anne" robinwatch:background="@color/main_bk_gray" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent"
+    <RelativeLayout robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginTop="20dp" robinwatch:layout_marginBottom="20dp" robinwatch:layout_centerInParent="true"
+        <RelativeLayout robinwatch:id="@+id/key_RelativeLayout" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="15dp" robinwatch:layout_centerVertical="true">
+            <ImageView robinwatch:id="@+id/selected_key_ImageView" robinwatch:background="@drawable/micro_list_bg_off" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_centerInParent="true" />
+            <TextView robinwatch:textSize="18sp" robinwatch:textStyle="bold" robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/order_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:text="1" robinwatch:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView robinwatch:textSize="15sp" robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/name_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="10dp" robinwatch:text="默认" robinwatch:layout_toRightOf="@+id/key_RelativeLayout" robinwatch:layout_centerVertical="true" />
+        <RelativeLayout robinwatch:id="@+id/right_RelativeLayout" robinwatch:padding="10dp" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginRight="5dp" robinwatch:layout_alignParentRight="true">
+            <ImageView robinwatch:id="@+id/selected_ImageView" robinwatch:background="@drawable/micro_check_off" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

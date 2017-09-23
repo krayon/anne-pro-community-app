@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/main_bk_black" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="2.0">
+    <RelativeLayout android:id="@+id/tip_RelativeLayout" android:background="@color/main_top_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001"
+        <RelativeLayout android:id="@+id/backBtn" android:paddingLeft="15dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true">
+            <ImageView android:background="@drawable/menu_return" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="18sp" android:textColor="@color/main_font_green" android:id="@+id/activity_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_about_obins" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="2.0">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <ImageView android:id="@+id/logoImageView" android:background="@drawable/ic_launcher" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <TextView android:textSize="16sp" android:textColor="@color/main_font_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" android:text="@string/setting_about_obins_desc" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView android:textSize="11sp" android:textColor="@color/main_font_gray" android:id="@+id/companyTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="www.obins.net" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="13sp" android:textColor="@color/main_font_gray" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0dp" android:text="知更鸟 版权所有" android:layout_above="@+id/companyTextView" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

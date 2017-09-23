@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="3" android:versionName="1.2" package="com.obins.anne">
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true" />
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="18" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:name="com.obins.anne.utils.AppUtils" android:screenOrientation="portrait" android:allowBackup="true">
+        <service android:name="ti.android.ble.common.BluetoothLeService" android:enabled="true" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_MainPage" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_Setting" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_FwUpdate" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_CustomLightEffect" android:screenOrientation="landscape" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_Modifynickname" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_Manual" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_Aboutobins" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_Macroprograming" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_Macroprogramingsetting" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_MusicList" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_Device" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_HomePage" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_Test" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.ActivityFragment_LightEffect" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.ActivityFragment_CustomLightEffect" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_CustomColor" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_MacroprogrammingMainPage" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_Alignment" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_AlignmentSetting" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_SelectedKey" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_APPVersion" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_DeviceList" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_Mode" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_Macro" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_MacroValue" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_AboutDevice" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_LinkKBTip" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_MacroValueNew" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:name="com.obins.anne.Activity_Setting_DeviceList" android:screenOrientation="portrait" />
+    </application>
+</manifest>

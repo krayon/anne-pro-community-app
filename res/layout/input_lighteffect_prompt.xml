@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@color/main_bk_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc801" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"
+    <RelativeLayout android:id="@+id/title_RelativeLayout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2601">
+        <TextView android:textColor="@color/main_bk_white" android:id="@+id/title_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="删除自定义宏" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/buttom_RelativeLayout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="2.0">
+            <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <Button android:textSize="15sp" android:id="@+id/cancle_Button" android:background="@drawable/gradientbutton_orange" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2601" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="取消" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <Button android:textSize="15sp" android:id="@+id/sure_Button" android:background="@drawable/gradientbutton_green" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2601" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="确定" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_above="@+id/buttom_RelativeLayout" android:layout_below="@+id/title_RelativeLayout">
+        <View android:background="@color/font_color_lightgray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+        <View android:background="@color/font_color_lightgray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_alignParentBottom="true" />
+        <EditText android:textColor="@color/main_bk_white" android:id="@+id/content_EditText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:text="是否删除自定义宏 AQ ？" android:singleLine="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

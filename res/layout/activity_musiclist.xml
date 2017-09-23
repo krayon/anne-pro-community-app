@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/main_bk_black" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@+id/tip_RelativeLayout" android:background="@color/main_bk_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_alignParentTop="true"
+        <RelativeLayout android:id="@+id/back_RelativeLayout" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001">
+            <ImageView android:background="@drawable/menu_return" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="18sp" android:textColor="@color/main_bk_white" android:id="@+id/activity_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="@string/music_list" android:layout_centerInParent="true" />
+        <TextView android:textSize="13sp" android:textColor="@color/main_bk_white" android:id="@+id/pause_TextView" android:padding="10dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="暂停" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.obins.anne.viewpart.ClearEditText android:textSize="15dp" android:textColor="@color/main_bk_gray" android:id="@+id/filter_edit" android:background="@drawable/search_bar_edit_selector" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:hint="请输入关键字" android:singleLine="true" android:drawableLeft="@drawable/search_bar_icon_normal" android:layout_below="@+id/tip_RelativeLayout" />
+    <FrameLayout android:id="@+id/framelayout_list_muisc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/main_bottom" android:layout_below="@+id/filter_edit">
+        <ListView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/country_lvcountry" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:divider="0x0" />
+        <TextView android:textSize="30dp" android:textColor="#ffffffff" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/dialog" android:background="@drawable/show_head_toast_bg" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="UNKNOWN_DATA_0x5001" />
+        <com.obins.anne.viewpart.SideBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sidrbar" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="match_parent" />
+    </FrameLayout>
+    <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/main_bottom" />
+    <RelativeLayout android:background="@color/main_bk_white" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_alignParentBottom="true"
+        <RelativeLayout android:id="@+id/left_RelativeLayout" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801">
+            <ImageView android:id="@+id/play_ImageView" android:background="@drawable/bottom_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+            <ImageView android:id="@+id/pause_ImageView" android:background="@drawable/bottom_pause" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textColor="@color/main_bk_gray" android:id="@+id/name_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:text="天亮说再见" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

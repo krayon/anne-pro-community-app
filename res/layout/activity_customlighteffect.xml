@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/main_bk_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/tip_RelativeLayout" android:background="@color/actionbar_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001"
+        <RelativeLayout android:id="@+id/backBtn" android:background="@drawable/click_actionbar_black_gray" android:paddingLeft="5dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true">
+            <ImageView android:background="@drawable/menu_return" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:id="@+id/verter_line" android:background="#110000" android:layout_width="UNKNOWN_DATA_0x200" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_toRightOf="@+id/backBtn" android:layout_centerVertical="true" />
+        <TextView android:textSize="18sp" android:textColor="@color/main_bk_white" android:id="@+id/activity_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="" android:layout_toRightOf="@+id/verter_line" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="13.0">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="2.0">
+            <View android:background="@color/font_color_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="15.0">
+                <RelativeLayout android:id="@+id/relativeLayout_esc" android:background="@color/red" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ESC" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_1" android:background="@color/red" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_2" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_3" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_4" android:background="@color/green" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_5" android:background="@color/green" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_6" android:background="@color/blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_7" android:background="@color/blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="7" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_8" android:background="@color/purple" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="8" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_9" android:background="@color/purple" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_0" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_01" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_02" android:background="@color/blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_03" android:background="@color/blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="2.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Backspace" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="2.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="30.0">
+                <RelativeLayout android:id="@+id/relativeLayout_10" android:background="@color/red" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="3.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TAB" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_q" android:background="@color/red" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="2.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Q" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_w" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="2.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="W" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_e" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="2.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="E" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_r" android:background="@color/green" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="2.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="R" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_t" android:background="@color/green" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="2.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="T" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_y" android:background="@color/blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="2.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Y" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_u" android:background="@color/blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="2.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="U" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_i" android:background="@color/purple" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="2.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="I" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_o" android:background="@color/purple" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="2.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="O" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_p" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="2.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="P" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_11" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="2.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_12" android:background="@color/blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="2.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="}" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_13" android:background="@color/blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="3.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="|" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:background="@color/font_color_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="2.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="60.0">
+                <RelativeLayout android:id="@+id/relativeLayout_20" android:background="@color/red" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="7.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CAPS" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_a" android:background="@color/red" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_s" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="S" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_d" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="D" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_f" android:background="@color/green" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="F" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_g" android:background="@color/green" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="G" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_h" android:background="@color/blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="H" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_j" android:background="@color/blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="J" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_k" android:background="@color/purple" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="K" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_l" android:background="@color/purple" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="L" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_21" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_22" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_23" android:background="@color/blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="9.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enter" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:background="@color/font_color_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="2.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="60.0">
+                <RelativeLayout android:id="@+id/relativeLayout_30" android:background="@color/red" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="9.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SHIFT" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_z" android:background="@color/red" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Z" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_x" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="X" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_c" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="C" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_v" android:background="@color/green" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="V" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_b" android:background="@color/green" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="B" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_n" android:background="@color/blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="N" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_m" android:background="@color/blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="M" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_31" android:background="@color/purple" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="<" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_32" android:background="@color/purple" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=">" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_33" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="?" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_34" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="11.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SHIFT" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:background="@color/font_color_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="2.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="60.0">
+                <RelativeLayout android:id="@+id/relativeLayout_40" android:background="@color/blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="5.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CTRL" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_41" android:background="@color/red" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="5.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="WIN" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_42" android:background="@color/red" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="5.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ALT" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_43" android:background="@color/green" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="25.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SPACE" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_44" android:background="@color/purple" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="5.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ALT" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_45" android:background="@color/purple" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="5.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FN" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_46" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="5.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ANNE" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_47" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="5.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CTRL" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:background="@color/font_color_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="2.0">
+            <View android:background="@color/font_color_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="60.0">
+                <RelativeLayout android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="5.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                </RelativeLayout>
+                <RelativeLayout android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="5.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_color0" android:background="@color/red" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_color1" android:background="@color/dark_red" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_color2" android:background="@color/orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_color3" android:background="@color/dark_orange" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_color4" android:background="@color/purple" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_color5" android:background="@color/dark_purple" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_color6" android:background="@color/green" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_color7" android:background="@color/dark_green" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_color8" android:background="@color/blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/relativeLayout_color9" android:background="@color/dark_blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="4.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                </RelativeLayout>
+                <RelativeLayout android:background="@color/blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="5.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                </RelativeLayout>
+                <RelativeLayout android:background="@color/blue" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="5.0">
+                    <View android:background="@color/font_color_gray" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

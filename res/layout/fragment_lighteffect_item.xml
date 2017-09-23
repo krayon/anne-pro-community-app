@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.obins.anne" robinwatch:orientation="vertical" robinwatch:background="@color/main_bk_white" robinwatch:layout_width="match_parent" robinwatch:layout_height="wrap_content">
+    <RelativeLayout robinwatch:background="#00000000" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x2601" robinwatch:layout_marginLeft="10dp" robinwatch:layout_marginTop="5dp" robinwatch:layout_marginRight="10dp" robinwatch:layout_marginBottom="5dp">
+        <com.obins.anne.viewpart.CircleView robinwatch:id="@+id/left_CircleView" robinwatch:layout_width="UNKNOWN_DATA_0x2601" robinwatch:layout_height="UNKNOWN_DATA_0x2601" robinwatch:fill_color="@color/dark_green" />
+        <RelativeLayout robinwatch:layout_width="UNKNOWN_DATA_0x2601" robinwatch:layout_height="UNKNOWN_DATA_0x2601">
+            <TextView robinwatch:textSize="13sp" robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/order_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:text="1" robinwatch:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView robinwatch:textSize="13sp" robinwatch:textColor="@color/main_bk_alpha_cyan" robinwatch:id="@+id/name_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="10dp" robinwatch:text="默认" robinwatch:layout_toRightOf="@+id/left_CircleView" robinwatch:layout_centerVertical="true" />
+        <RelativeLayout robinwatch:id="@+id/right_RelativeLayout" robinwatch:layout_width="UNKNOWN_DATA_0x2601" robinwatch:layout_height="UNKNOWN_DATA_0x2601" robinwatch:layout_alignParentRight="true">
+            <com.obins.anne.viewpart.CircleView robinwatch:id="@+id/right_CircleView" robinwatch:layout_width="UNKNOWN_DATA_0xc01" robinwatch:layout_height="UNKNOWN_DATA_0xc01" robinwatch:layout_centerInParent="true" robinwatch:fill_color="@color/green" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

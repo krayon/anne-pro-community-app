@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/main_top_gray" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/logoImageView" android:background="@drawable/light_chandelier_on_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_centerVertical="true" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginLeft="15dp" android:layout_toRightOf="@+id/logoImageView" android:layout_centerVertical="true">
+            <TextView android:textSize="16sp" android:textColor="@color/main_font_white" android:id="@+id/titleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="英雄联盟" android:layout_centerVertical="true" />
+            <View android:id="@+id/diver_View" android:background="@color/main_diver_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginRight="10dp" />
+        </RelativeLayout>
+        <ImageView android:id="@+id/arrow_TextView" android:background="@drawable/set_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="13sp" android:textColor="@color/main_font_orange" android:id="@+id/contentTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:text=">" android:layout_toLeftOf="@+id/arrow_TextView" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

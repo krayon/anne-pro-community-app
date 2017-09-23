@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.obins.anne" robinwatch:background="@color/main_bk_black" robinwatch:paddingLeft="5dp" robinwatch:paddingRight="5dp" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent">
+    <View robinwatch:id="@+id/top_View" robinwatch:background="@color/main_bk_black" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x501" />
+    <RelativeLayout robinwatch:id="@+id/bk_RelativeLayout" robinwatch:background="@color/main_bk_gray" robinwatch:layout_width="match_parent" robinwatch:layout_height="wrap_content" robinwatch:layout_below="@+id/top_View">
+        <ImageView robinwatch:id="@+id/bk_ImageView" robinwatch:background="@drawable/device_list_bg_offline" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" />
+        <TextView robinwatch:textSize="11sp" robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/macTextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="15dp" robinwatch:layout_marginTop="80dp" robinwatch:text="32:45" robinwatch:layout_below="@+id/nameTextView" />
+    </RelativeLayout>
+    <View robinwatch:id="@+id/bottom_View" robinwatch:background="@color/main_bk_black" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x501" robinwatch:layout_below="@+id/bk_RelativeLayout" />
+</RelativeLayout>

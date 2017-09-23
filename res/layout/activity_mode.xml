@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/main_bk_black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/tip_RelativeLayout" android:background="@color/main_top_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001"
+        <RelativeLayout android:id="@+id/backBtn" android:paddingLeft="15dp" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001">
+            <ImageView android:background="@drawable/menu_return" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="18sp" android:textColor="@color/main_font_green" android:id="@+id/activity_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="@string/mode" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:text="@string/mode_compatible" android:layout_centerVertical="true" />
+        <Switch android:id="@+id/comp_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/main_divider_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_margin="10dp" />
+    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15dp" android:text="@string/mode_standard_info" />
+    <TextView android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15dp" android:text="@string/mode_compatible_info" />
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="fill_color">
+        <item>16</item>
+    </attr>
+    <attr name="border_color">
+        <item>16</item>
+    </attr>
+    <attr name="border_background_color">
+        <item>16</item>
+    </attr>
+    <attr name="text_color">
+        <item>16</item>
+    </attr>
+    <attr name="text_size">
+        <item>64</item>
+    </attr>
+    <attr name="border_width">
+        <item>64</item>
+    </attr>
+    <attr name="color_wheel_radius">
+        <item>64</item>
+    </attr>
+    <attr name="color_wheel_thickness">
+        <item>64</item>
+    </attr>
+    <attr name="color_wheel_color">
+        <item>16</item>
+    </attr>
+    <attr name="color_background_color">
+        <item>16</item>
+    </attr>
+    <attr name="color_wheel_add_color">
+        <item>16</item>
+    </attr>
+    <attr name="color_pointer_radius">
+        <item>64</item>
+    </attr>
+    <attr name="color_pointer_halo_radius">
+        <item>64</item>
+    </attr>
+    <attr name="color_pointer_halo_color">
+        <item>16</item>
+    </attr>
+    <attr name="color_pointer_color">
+        <item>16</item>
+    </attr>
+    <attr name="tip_text_color">
+        <item>16</item>
+    </attr>
+    <attr name="ringLine_thickness">
+        <item>64</item>
+    </attr>
+    <attr name="ringLine_radius">
+        <item>64</item>
+    </attr>
+    <attr name="ringLine_color">
+        <item>16</item>
+    </attr>
+    <attr name="ringLine_add_color">
+        <item>16</item>
+    </attr>
+    <attr name="border_thickness">
+        <item>64</item>
+    </attr>
+    <attr name="border_inside_color">
+        <item>16</item>
+    </attr>
+    <attr name="border_outside_color">
+        <item>16</item>
+    </attr>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.obins.anne" robinwatch:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" robinwatch:background="@color/main_bk_gray" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0xc801" robinwatch:layout_marginLeft="30dp" robinwatch:layout_marginRight="30dp"
+    <RelativeLayout robinwatch:id="@+id/title_RelativeLayout" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x2601">
+        <TextView robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/title_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:text="宏录制中" robinwatch:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout robinwatch:id="@+id/buttom_RelativeLayout" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x3201" robinwatch:layout_alignParentBottom="true">
+        <LinearLayout robinwatch:orientation="horizontal" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent" robinwatch:weightSum="2.0">
+            <RelativeLayout robinwatch:layout_width="UNKNOWN_DATA_0x1" robinwatch:layout_height="match_parent" robinwatch:layout_weight="1.0">
+                <Button robinwatch:textSize="15sp" robinwatch:id="@+id/cancle_Button" robinwatch:background="@drawable/gradientbutton_orange" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x2601" robinwatch:layout_marginLeft="8dp" robinwatch:layout_marginRight="8dp" robinwatch:text="取消" robinwatch:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout robinwatch:layout_width="UNKNOWN_DATA_0x1" robinwatch:layout_height="match_parent" robinwatch:layout_weight="1.0">
+                <Button robinwatch:textSize="15sp" robinwatch:id="@+id/ok_Button" robinwatch:background="@drawable/gradientbutton_green" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x2601" robinwatch:layout_marginLeft="8dp" robinwatch:layout_marginRight="8dp" robinwatch:text="完成" robinwatch:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x3201" robinwatch:layout_above="@+id/buttom_RelativeLayout" robinwatch:layout_below="@+id/title_RelativeLayout">
+        <View robinwatch:background="@color/font_color_lightgray" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x101" />
+        <View robinwatch:background="@color/font_color_lightgray" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x101" robinwatch:layout_alignParentBottom="true" />
+        <RelativeLayout robinwatch:layout_width="match_parent" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="20dp" robinwatch:layout_marginRight="20dp" robinwatch:layout_centerVertical="true">
+            <com.obins.anne.viewpart.CircleView robinwatch:id="@+id/circleView3" robinwatch:layout_width="UNKNOWN_DATA_0xc01" robinwatch:layout_height="UNKNOWN_DATA_0xc01" robinwatch:layout_centerInParent="true" robinwatch:fill_color="@color/green" />
+            <com.obins.anne.viewpart.CircleView robinwatch:id="@+id/circleView2" robinwatch:layout_width="UNKNOWN_DATA_0xc01" robinwatch:layout_height="UNKNOWN_DATA_0xc01" robinwatch:layout_marginRight="20dp" robinwatch:layout_toLeftOf="@+id/circleView3" robinwatch:fill_color="@color/green" />
+            <com.obins.anne.viewpart.CircleView robinwatch:id="@+id/circleView1" robinwatch:layout_width="UNKNOWN_DATA_0xc01" robinwatch:layout_height="UNKNOWN_DATA_0xc01" robinwatch:layout_marginRight="20dp" robinwatch:layout_toLeftOf="@+id/circleView2" robinwatch:layout_centerVertical="true" robinwatch:fill_color="@color/green" />
+            <com.obins.anne.viewpart.CircleView robinwatch:id="@+id/circleView4" robinwatch:layout_width="UNKNOWN_DATA_0xc01" robinwatch:layout_height="UNKNOWN_DATA_0xc01" robinwatch:layout_marginLeft="20dp" robinwatch:layout_toRightOf="@+id/circleView3" robinwatch:layout_centerVertical="true" robinwatch:fill_color="@color/green" />
+            <com.obins.anne.viewpart.CircleView robinwatch:id="@+id/circleView5" robinwatch:layout_width="UNKNOWN_DATA_0xc01" robinwatch:layout_height="UNKNOWN_DATA_0xc01" robinwatch:layout_marginLeft="20dp" robinwatch:layout_toRightOf="@+id/circleView4" robinwatch:layout_centerVertical="true" robinwatch:fill_color="@color/green" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

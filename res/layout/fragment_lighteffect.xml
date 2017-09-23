@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.obins.anne" robinwatch:orientation="vertical" robinwatch:background="@drawable/background" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent">
+    <RelativeLayout robinwatch:id="@+id/top_RelativeLayout" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x3201" />
+    <LinearLayout robinwatch:orientation="vertical" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent" robinwatch:weightSum="3.0">
+        <RelativeLayout robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x1" robinwatch:layout_weight="1.0">
+            <LinearLayout robinwatch:orientation="horizontal" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent" robinwatch:weightSum="5.0">
+                <RelativeLayout robinwatch:layout_width="UNKNOWN_DATA_0x1" robinwatch:layout_height="match_parent" robinwatch:layout_weight="1.0" />
+                <RelativeLayout robinwatch:layout_width="UNKNOWN_DATA_0x1" robinwatch:layout_height="match_parent" robinwatch:layout_weight="4.0">
+                    <View robinwatch:background="@drawable/gradientbutton_cyan_white" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x6401" robinwatch:layout_marginRight="10dp" robinwatch:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout robinwatch:orientation="horizontal" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent" robinwatch:weightSum="5.0">
+                <RelativeLayout robinwatch:layout_width="UNKNOWN_DATA_0x1" robinwatch:layout_height="match_parent" robinwatch:layout_weight="2.0">
+                    <com.obins.anne.viewpart.CircleView robinwatch:id="@+id/left_CircleView" robinwatch:visibility="visible" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent" robinwatch:layout_margin="5dp" robinwatch:layout_centerInParent="true" robinwatch:fill_color="@color/main_bk_cyan" />
+                    <com.obins.anne.viewpart.EqualradiusRingView robinwatch:id="@+id/right_RingView" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent" robinwatch:layout_margin="3dp" robinwatch:layout_centerInParent="true" robinwatch:fill_color="@color/main_bk_white" robinwatch:color_wheel_thickness="3dp" />
+                    <TextView robinwatch:textSize="25sp" robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/lighteffectname_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:text="青色" robinwatch:layout_centerInParent="true" />
+                    <TextView robinwatch:textSize="11sp" robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/lighteffecttype_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginBottom="0dp" robinwatch:text="静态灯效" robinwatch:layout_above="@+id/lighteffectname_TextView" robinwatch:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x1" robinwatch:layout_weight="2.0">
+            <LinearLayout robinwatch:orientation="horizontal" robinwatch:id="@+id/bar_LinearLayout" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x2e01" robinwatch:weightSum="3.0">
+                <RelativeLayout robinwatch:id="@+id/normalLighteffect_RelativeLayout" robinwatch:layout_width="UNKNOWN_DATA_0x1" robinwatch:layout_height="UNKNOWN_DATA_0x2e01" robinwatch:layout_weight="1.0">
+                    <View robinwatch:id="@+id/normalLighteffect_View" robinwatch:background="@color/blue" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x1701" robinwatch:layout_marginLeft="5dp" robinwatch:layout_marginRight="5dp" robinwatch:layout_alignParentBottom="true" />
+                    <Button robinwatch:id="@+id/normalLighteffect_Button" robinwatch:background="@drawable/gradientbutton_blue_halfcircle_23" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent" robinwatch:layout_marginLeft="5dp" robinwatch:layout_marginRight="5dp" robinwatch:text="常规" />
+                </RelativeLayout>
+                <RelativeLayout robinwatch:id="@+id/game_RelativeLayout" robinwatch:layout_width="UNKNOWN_DATA_0x1" robinwatch:layout_height="UNKNOWN_DATA_0x2e01" robinwatch:layout_weight="1.0">
+                    <View robinwatch:id="@+id/game_View" robinwatch:background="@color/blue" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x1701" robinwatch:layout_marginLeft="5dp" robinwatch:layout_marginRight="5dp" robinwatch:layout_alignParentBottom="true" />
+                    <Button robinwatch:id="@+id/game_Button" robinwatch:background="@drawable/gradientbutton_transparent_halfcircle_red" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent" robinwatch:layout_marginLeft="5dp" robinwatch:layout_marginRight="5dp" robinwatch:text="游戏" />
+                </RelativeLayout>
+                <RelativeLayout robinwatch:id="@+id/custom_RelativeLayout" robinwatch:layout_width="UNKNOWN_DATA_0x1" robinwatch:layout_height="UNKNOWN_DATA_0x2e01" robinwatch:layout_weight="1.0">
+                    <View robinwatch:id="@+id/custom_View" robinwatch:background="@color/blue" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x1701" robinwatch:layout_marginLeft="5dp" robinwatch:layout_marginRight="5dp" robinwatch:layout_alignParentBottom="true" />
+                    <Button robinwatch:id="@+id/custom_Button" robinwatch:background="@drawable/gradientbutton_transparent_halfcircle_red" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent" robinwatch:layout_marginLeft="5dp" robinwatch:layout_marginRight="5dp" robinwatch:text="自定义" />
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent" robinwatch:layout_below="@+id/bar_LinearLayout"
+                <RelativeLayout robinwatch:background="@drawable/gradientbutton_blue_halfcircle_23" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent" robinwatch:layout_margin="5dp" />
+                <ListView robinwatch:id="@+id/normalLighteffect_ListView" robinwatch:visibility="visible" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="5dp" robinwatch:layout_marginTop="38dp" robinwatch:layout_marginRight="5dp" robinwatch:layout_marginBottom="38dp" robinwatch:divider="@color/main_divid_line" robinwatch:dividerHeight="1px" />
+                <ListView robinwatch:id="@+id/game_ListView" robinwatch:visibility="gone" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="5dp" robinwatch:layout_marginTop="38dp" robinwatch:layout_marginRight="5dp" robinwatch:layout_marginBottom="38dp" robinwatch:divider="@color/main_divid_line" robinwatch:dividerHeight="1px" />
+                <ListView robinwatch:id="@+id/custom_ListView" robinwatch:visibility="gone" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="5dp" robinwatch:layout_marginTop="38dp" robinwatch:layout_marginRight="5dp" robinwatch:layout_marginBottom="38dp" robinwatch:divider="@color/main_divid_line" robinwatch:dividerHeight="1px" />
+                <LinearLayout robinwatch:orientation="horizontal" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent" robinwatch:weightSum="3.0">
+                    <RelativeLayout robinwatch:layout_width="UNKNOWN_DATA_0x1" robinwatch:layout_height="UNKNOWN_DATA_0x1e01" robinwatch:layout_weight="1.0">
+                        <View robinwatch:id="@+id/normaleffectlight_selece_buttomhalf_View" robinwatch:background="@color/blue" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent" robinwatch:layout_marginLeft="5dp" robinwatch:layout_marginRight="5dp" />
+                    </RelativeLayout>
+                    <RelativeLayout robinwatch:layout_width="UNKNOWN_DATA_0x1" robinwatch:layout_height="UNKNOWN_DATA_0x1e01" robinwatch:layout_weight="1.0">
+                        <View robinwatch:id="@+id/game_selece_buttomhalf_View" robinwatch:background="@color/blue" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent" robinwatch:layout_marginLeft="5dp" robinwatch:layout_marginRight="5dp" />
+                    </RelativeLayout>
+                    <RelativeLayout robinwatch:layout_width="UNKNOWN_DATA_0x1" robinwatch:layout_height="UNKNOWN_DATA_0x1e01" robinwatch:layout_weight="1.0">
+                        <View robinwatch:id="@+id/custom_selece_buttomhalf_View" robinwatch:background="@color/blue" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent" robinwatch:layout_marginLeft="5dp" robinwatch:layout_marginRight="5dp" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <TextView robinwatch:textSize="15sp" robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/settingmusic_TextView" robinwatch:padding="5dp" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:text="设置音乐" robinwatch:layout_alignParentTop="true" robinwatch:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

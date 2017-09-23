@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.obins.anne" obins:orientation="vertical" obins:background="@color/main_bk_black" obins:layout_width="match_parent" obins:layout_height="match_parent">
+    <RelativeLayout obins:id="@+id/tip_RelativeLayout" obins:background="@color/main_top_gray" obins:layout_width="match_parent" obins:layout_height="UNKNOWN_DATA_0x3001"
+        <RelativeLayout obins:id="@+id/backBtn" obins:paddingLeft="15dp" obins:paddingRight="8dp" obins:layout_width="wrap_content" obins:layout_height="match_parent" obins:layout_centerVertical="true">
+            <ImageView obins:background="@drawable/menu_return" obins:layout_width="wrap_content" obins:layout_height="wrap_content" obins:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView obins:textSize="18sp" obins:textColor="@color/main_font_green" obins:id="@+id/activity_title_tv" obins:layout_width="wrap_content" obins:layout_height="wrap_content" obins:text="@string/light_user_setting" obins:layout_centerInParent="true" />
+        <RelativeLayout obins:id="@+id/delete_RelativeLayout" obins:layout_width="UNKNOWN_DATA_0x2801" obins:layout_height="UNKNOWN_DATA_0x3001" obins:layout_toLeftOf="@+id/save_RelativeLayout">
+            <TextView obins:textSize="13sp" obins:textColor="@color/main_bk_white" obins:id="@+id/delete_TextView" obins:layout_width="wrap_content" obins:layout_height="wrap_content" obins:text="@string/delete" obins:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout obins:id="@+id/save_RelativeLayout" obins:layout_width="UNKNOWN_DATA_0x2d01" obins:layout_height="UNKNOWN_DATA_0x3001" obins:layout_alignParentRight="true">
+            <TextView obins:textSize="13sp" obins:textColor="@color/main_bk_white" obins:id="@+id/save_TextView" obins:layout_width="wrap_content" obins:layout_height="wrap_content" obins:text="@string/save" obins:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout obins:layout_width="match_parent" obins:layout_height="wrap_content" obins:layout_marginLeft="15dp" obins:layout_marginTop="7dp" obins:layout_marginRight="15dp" obins:layout_marginBottom="7dp">
+        <TextView obins:textColor="@color/lighteffectpage_titletip_selected_orange" obins:id="@+id/title_TextView" obins:layout_width="wrap_content" obins:layout_height="wrap_content" obins:text="@string/light_effect_name" obins:layout_centerVertical="true" />
+        <EditText obins:textSize="18sp" obins:textColor="@color/lighteffectpage_titletip_unselected_gray" obins:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" obins:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" obins:id="@+id/name_TextView" obins:background="#00000000" obins:layout_width="match_parent" obins:layout_height="wrap_content" obins:layout_marginLeft="15dp" obins:hint="@string/please_input_lighteffect_name" obins:singleLine="true" obins:layout_toRightOf="@+id/title_TextView" obins:layout_alignParentRight="true" obins:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View obins:background="@color/lighteffectpage_titletip_unselected_gray" obins:layout_width="match_parent" obins:layout_height="UNKNOWN_DATA_0x100" obins:layout_marginLeft="15dp" obins:layout_marginRight="15dp" />
+    <TextView obins:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" obins:id="@+id/colortip_TextView" obins:layout_width="wrap_content" obins:layout_height="wrap_content" obins:layout_marginTop="10dp" obins:layout_marginBottom="10dp" obins:text="选中按键颜色: R:255 G:128 B:128" />
+    <include obins:id="@+id/keyboard_LinearLayout" obins:layout_width="wrap_content" obins:layout_height="UNKNOWN_DATA_0x6401" obins:layout_marginLeft="15dp" obins:layout_marginRight="15dp" layout="@layout/layout_keyboard" />
+    <RelativeLayout obins:layout_width="match_parent" obins:layout_height="match_parent">
+        <com.obins.anne.viewpart.RobinViewPagerNoScrollTo obins:id="@+id/viewpager" obins:layout_width="match_parent" obins:layout_height="match_parent" obins:layout_below="@+id/top_RelativeLayout" />
+        <LinearLayout obins:orientation="horizontal" obins:id="@+id/top_RelativeLayout" obins:layout_width="match_parent" obins:layout_height="UNKNOWN_DATA_0x3201" obins:layout_marginLeft="15dp" obins:layout_marginRight="15dp" obins:weightSum="3.0" obins:layout_alignParentTop="true">
+            <RelativeLayout obins:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" obins:layout_width="UNKNOWN_DATA_0x1" obins:layout_height="wrap_content" obins:layout_weight="1.0">
+                <TextView obins:textSize="13sp" obins:textColor="@color/lighteffectpage_titletip_selected_orange" obins:id="@+id/lefttitle_TextView" obins:padding="5dp" obins:layout_width="wrap_content" obins:layout_height="wrap_content" obins:text="@string/light_effect_basic_setting" obins:layout_centerInParent="true" />
+                <View obins:id="@+id/leftbuttom_View" obins:background="@color/lighteffectpage_titletip_selected_orange" obins:layout_width="match_parent" obins:layout_height="UNKNOWN_DATA_0x300" obins:layout_marginTop="15dp" obins:layout_below="@+id/lefttitle_TextView" />
+                <View obins:background="@color/lighteffectpage_titletip_unselected_gray" obins:visibility="invisible" obins:layout_width="match_parent" obins:layout_height="UNKNOWN_DATA_0x100" obins:layout_marginTop="17dp" obins:layout_below="@+id/lefttitle_TextView" />
+            </RelativeLayout>
+            <RelativeLayout obins:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" obins:layout_width="UNKNOWN_DATA_0x1" obins:layout_height="wrap_content" obins:layout_weight="1.0">
+                <TextView obins:textSize="13sp" obins:textColor="@color/lighteffectpage_titletip_unselected_gray" obins:id="@+id/middletitle_TextView" obins:padding="5dp" obins:layout_width="wrap_content" obins:layout_height="wrap_content" obins:text="@string/lighteffect_pure_color" obins:layout_centerInParent="true" />
+                <View obins:id="@+id/middlebuttom_View" obins:background="@color/lighteffectpage_titletip_selected_orange" obins:visibility="invisible" obins:layout_width="match_parent" obins:layout_height="UNKNOWN_DATA_0x300" obins:layout_marginTop="15dp" obins:layout_below="@+id/middletitle_TextView" />
+                <View obins:background="@color/lighteffectpage_titletip_unselected_gray" obins:visibility="invisible" obins:layout_width="match_parent" obins:layout_height="UNKNOWN_DATA_0x100" obins:layout_marginTop="17dp" obins:layout_below="@+id/middletitle_TextView" />
+            </RelativeLayout>
+            <RelativeLayout obins:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" obins:layout_width="UNKNOWN_DATA_0x1" obins:layout_height="wrap_content" obins:layout_weight="1.0">
+                <TextView obins:textSize="13sp" obins:textColor="@color/lighteffectpage_titletip_unselected_gray" obins:id="@+id/righttitle_TextView" obins:padding="5dp" obins:layout_width="wrap_content" obins:layout_height="wrap_content" obins:text="@string/light_effect_title_dynamic" obins:layout_centerInParent="true" />
+                <View obins:id="@+id/rightbuttom_View" obins:background="@color/lighteffectpage_titletip_selected_orange" obins:visibility="invisible" obins:layout_width="match_parent" obins:layout_height="UNKNOWN_DATA_0x300" obins:layout_marginTop="15dp" obins:layout_below="@+id/righttitle_TextView" />
+                <View obins:background="@color/lighteffectpage_titletip_unselected_gray" obins:visibility="invisible" obins:layout_width="match_parent" obins:layout_height="UNKNOWN_DATA_0x100" obins:layout_marginTop="17dp" obins:layout_below="@+id/righttitle_TextView" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

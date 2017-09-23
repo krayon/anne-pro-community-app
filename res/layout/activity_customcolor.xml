@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/main_bk_black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/tip_RelativeLayout" android:background="@color/main_top_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001"
+        <RelativeLayout android:id="@+id/backBtn" android:paddingLeft="15dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true">
+            <ImageView android:background="@drawable/menu_return" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="18sp" android:textColor="@color/main_font_green" android:id="@+id/activity_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/light_user_color_title" android:layout_centerInParent="true" />
+        <RelativeLayout android:id="@+id/sure_RelativeLayout" android:paddingRight="15dp" android:layout_width="UNKNOWN_DATA_0x4401" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_alignParentRight="true">
+            <TextView android:textSize="13sp" android:textColor="@color/main_bk_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/macro_finish" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ScrollView android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textColor="@color/lighteffectpage_titletip_unselected_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:text="@string/light_user_color_user_defined_param" />
+            <TextView android:textSize="38sp" android:textColor="@color/main_bk_blue" android:id="@+id/preview_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:text="PREVIEW" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4.0">
+                <RelativeLayout android:id="@+id/red_RelativeLayout" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textColor="@color/lighteffectpage_titletip_unselected_gray" android:id="@+id/redTitle_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Red" android:layout_centerHorizontal="true" />
+                    <TextView android:textColor="@color/main_bk_blue" android:id="@+id/red_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="187" android:layout_below="@+id/redTitle_TextView" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/green_RelativeLayout" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textColor="@color/lighteffectpage_titletip_unselected_gray" android:id="@+id/greenTitle_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Green" android:layout_centerHorizontal="true" />
+                    <TextView android:textColor="@color/main_bk_blue" android:id="@+id/green_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="0" android:layout_below="@+id/greenTitle_TextView" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/blue_RelativeLayout" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textColor="@color/lighteffectpage_titletip_unselected_gray" android:id="@+id/blueTitle_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Blue" android:layout_centerHorizontal="true" />
+                    <TextView android:textColor="@color/main_bk_blue" android:id="@+id/blue_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="128" android:layout_below="@+id/blueTitle_TextView" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textColor="@color/main_bk_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:text="@string/light_user_color_user_defined_color_disc" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+                <View android:background="@color/lighteffectpage_titletip_unselected_gray" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </RelativeLayout>
+            <com.obins.anne.viewpart.ColorPickerView android:id="@+id/color_picker_view" android:tag="portrait" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5001" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layerType="software" />
+            <TextView android:textColor="@color/main_bk_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:text="@string/light_user_color_user_defined_default_color" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+                <View android:background="@color/lighteffectpage_titletip_unselected_gray" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xa001" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="20dp">
+                <View android:background="@color/lighteffectpage_titletip_unselected_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_alignParentBottom="true" />
+                <View android:background="@color/lighteffectpage_titletip_unselected_gray" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_marginRight="0dp" android:layout_alignParentRight="true" />
+                <View android:background="@color/lighteffectpage_titletip_unselected_gray" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="match_parent" android:layout_alignParentLeft="true" />
+                <GridView android:id="@+id/color_GridView" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:numColumns="UNKNOWN_DATA_0x7" android:layout_weight="2.0" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

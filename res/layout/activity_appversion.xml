@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/main_bk_black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/tip_RelativeLayout" android:background="@color/main_top_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001"
+        <RelativeLayout android:id="@+id/backBtn" android:paddingLeft="15dp" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001">
+            <ImageView android:background="@drawable/menu_return" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="18sp" android:textColor="@color/main_font_green" android:id="@+id/activity_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="@string/setting_app_version" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:background="@drawable/ic_launcher" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:layout_above="@+id/version_TextView" android:layout_centerHorizontal="true" />
+        <TextView android:id="@+id/version_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30dp" android:text="V1.0" android:layout_above="@+id/newver_TextView" android:layout_centerHorizontal="true" />
+        <TextView android:id="@+id/newver_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="发现最新版本 V1.2" android:layout_above="@+id/tip_TextView" android:layout_centerHorizontal="true" />
+        <TextView android:id="@+id/tip_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1:优化蓝牙
+2:优化APP" android:layout_centerInParent="true" />
+        <Button android:textColor="@color/main_bk_white" android:id="@+id/start_btn" android:background="@drawable/gradientbutton_cyan" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2e01" android:layout_margin="20dp" android:text="@string/check_app_version" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

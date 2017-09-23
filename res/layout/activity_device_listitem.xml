@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.obins.anne" robinwatch:padding="2dp" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent">
+    <ImageView robinwatch:id="@+id/logoImageView" robinwatch:background="@drawable/light_chandelier_on_icon" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="5dp" robinwatch:layout_centerVertical="true" />
+    <com.obins.anne.viewpart.CircleView robinwatch:id="@+id/right_CircleView" robinwatch:layout_width="UNKNOWN_DATA_0xc01" robinwatch:layout_height="UNKNOWN_DATA_0xc01" robinwatch:layout_marginRight="20dp" robinwatch:layout_alignParentRight="true" robinwatch:layout_centerVertical="true" robinwatch:fill_color="@color/green" />
+    <TextView robinwatch:textSize="16sp" robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/nameTextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="16dp" robinwatch:text="obins keyboard(6B6C)" robinwatch:layout_toRightOf="@+id/logoImageView" robinwatch:layout_centerVertical="true" />
+</RelativeLayout>

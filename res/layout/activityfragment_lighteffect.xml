@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.obins.anne" obins:orientation="vertical" obins:background="@color/main_bk_black" obins:layout_width="match_parent" obins:layout_height="match_parent">
+    <RelativeLayout obins:id="@+id/tip_RelativeLayout" obins:background="@color/main_top_gray" obins:layout_width="match_parent" obins:layout_height="UNKNOWN_DATA_0x3001"
+        <RelativeLayout obins:id="@+id/backBtn" obins:paddingLeft="15dp" obins:paddingRight="8dp" obins:layout_width="wrap_content" obins:layout_height="match_parent" obins:layout_centerVertical="true">
+            <ImageView obins:background="@drawable/menu_return" obins:layout_width="wrap_content" obins:layout_height="wrap_content" obins:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView obins:textSize="18sp" obins:textColor="@color/main_font_green" obins:id="@+id/activity_title_tv" obins:layout_width="wrap_content" obins:layout_height="wrap_content" obins:text="@string/light_effect_title" obins:layout_centerInParent="true" />
+        <RelativeLayout obins:id="@+id/add_RelativeLayout" obins:layout_width="UNKNOWN_DATA_0x3001" obins:layout_height="UNKNOWN_DATA_0x3001" obins:layout_alignParentRight="true">
+            <View obins:background="@color/main_bk_white" obins:layout_width="UNKNOWN_DATA_0x300" obins:layout_height="match_parent" obins:layout_marginTop="15dp" obins:layout_marginBottom="15dp" obins:layout_centerInParent="true" />
+            <View obins:background="@color/main_bk_white" obins:layout_width="match_parent" obins:layout_height="UNKNOWN_DATA_0x300" obins:layout_marginLeft="15dp" obins:layout_marginRight="15dp" obins:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout obins:layout_width="match_parent" obins:layout_height="match_parent">
+        <com.obins.anne.viewpart.RobinViewPager obins:id="@+id/viewpager" obins:layout_width="match_parent" obins:layout_height="match_parent" />
+        <RelativeLayout obins:id="@+id/top_RelativeLayout" obins:layout_width="match_parent" obins:layout_height="UNKNOWN_DATA_0x3201" obins:layout_alignParentTop="true">
+            <TextView obins:textSize="18sp" obins:textColor="@color/lighteffectpage_titletip_selected_orange" obins:id="@+id/middletitle_TextView" obins:padding="8dp" obins:layout_width="wrap_content" obins:layout_height="wrap_content" obins:text="@string/light_effect_title_staic" obins:layout_centerInParent="true" />
+            <TextView obins:textSize="11sp" obins:textColor="@color/lighteffectpage_titletip_unselected_gray" obins:id="@+id/lefttitle_TextView" obins:padding="8dp" obins:layout_width="wrap_content" obins:layout_height="wrap_content" obins:layout_marginRight="12dp" obins:text="@string/light_effect_title_dynamic" obins:layout_toLeftOf="@+id/middletitle_TextView" obins:layout_centerVertical="true" />
+            <TextView obins:textSize="11sp" obins:textColor="@color/lighteffectpage_titletip_unselected_gray" obins:id="@+id/righttitle_TextView" obins:padding="8dp" obins:layout_width="wrap_content" obins:layout_height="wrap_content" obins:layout_marginLeft="12dp" obins:text="@string/light_effect_title_user" obins:layout_toRightOf="@+id/middletitle_TextView" obins:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

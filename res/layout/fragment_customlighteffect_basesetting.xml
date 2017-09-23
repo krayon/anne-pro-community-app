@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp"
+        <RelativeLayout android:id="@+id/brightness_RelativeLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/brightness_ImageView" android:background="@drawable/led_brightness" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+            <TextView android:id="@+id/brightness_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="亮度 100%" android:layout_toRightOf="@+id/brightness_ImageView" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <SeekBar android:id="@+id/brightness_SeekBar" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:max="9" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/speed_outside_RelativeLayout" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp"
+        <RelativeLayout android:id="@+id/speed_RelativeLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/speed_ImageView" android:background="@drawable/led_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+            <TextView android:id="@+id/speed_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="速率 0" android:layout_toRightOf="@+id/speed_ImageView" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <SeekBar android:id="@+id/speed_SeekBar" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:max="9" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/direction_outside_RelativeLayout" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="15dp"
+        <RelativeLayout android:id="@+id/direction_RelativeLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/direction_ImageView" android:background="@drawable/second_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+            <TextView android:id="@+id/direction_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="方向 0" android:layout_toRightOf="@+id/direction_ImageView" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <SeekBar android:id="@+id/direction_SeekBar" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:max="3" />
+    </RelativeLayout>
+</LinearLayout>

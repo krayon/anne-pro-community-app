@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="AppTheme">
+    </style>
+    <style name="RelativeLayoutStyle">
+        <item>0dp</item>
+        <item>-1</item>
+        <item>2dp</item>
+        <item>1.0</item>
+    </style>
+    <style name="RelativeLayoutStyleAlignment">
+        <item>0dp</item>
+        <item>-1</item>
+        <item>1dp</item>
+        <item>1.0</item>
+    </style>
+    <style name="TextViewStyle">
+        <item>9sp</item>
+        <item>@color/main_bk_blue</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>true</item>
+    </style>
+    <style name="CustomCheckboxTheme">
+        <item>@drawable/checkbox_style</item>
+    </style>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/main_bk_black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/tip_RelativeLayout" android:background="@color/main_top_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001"
+        <RelativeLayout android:id="@+id/backBtn" android:paddingLeft="15dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true">
+            <ImageView android:background="@drawable/menu_return" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="18sp" android:textColor="@color/main_font_green" android:id="@+id/activity_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/layout_title" android:layout_centerInParent="true" />
+        <RelativeLayout android:id="@+id/add_RelativeLayout" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_alignParentRight="true">
+            <View android:background="@color/main_bk_white" android:layout_width="UNKNOWN_DATA_0x300" android:layout_height="match_parent" android:layout_marginTop="15dp" android:layout_marginBottom="15dp" android:layout_centerInParent="true" />
+            <View android:background="@color/main_bk_white" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x300" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textColor="@color/alignmentpage_font_green" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="20dp" android:text="当前配列" />
+    <TextView android:textSize="18sp" android:textColor="@color/alignmentpage_font_gray" android:id="@+id/tip_TextView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:text="系统预设配列1" />
+    <TextView android:textSize="10sp" android:textColor="@color/alignmentpage_font_gray" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="SELECT YOUR FAVOR LAYOUT  LAYOUT IS VERY VERY BEAUTIFUL" />
+    <TextView android:textSize="13sp" android:textColor="@color/alignmentpage_font_purplen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:text="@string/layout_selected" />
+    <View android:background="@color/main_divider_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginTop="10dp" />
+    <ListView android:id="@+id/listView" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@color/main_divider_gray" android:dividerHeight="1px" />
+</LinearLayout>

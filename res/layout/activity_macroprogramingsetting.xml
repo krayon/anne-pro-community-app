@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.obins.anne" robinwatch:orientation="vertical" robinwatch:background="@color/main_bk_black" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent">
+    <RelativeLayout robinwatch:id="@+id/tip_RelativeLayout" robinwatch:background="@color/main_top_gray" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x3001"
+        <RelativeLayout robinwatch:id="@+id/back_RelativeLayout" robinwatch:paddingLeft="15dp" robinwatch:layout_width="UNKNOWN_DATA_0x3001" robinwatch:layout_height="UNKNOWN_DATA_0x3001">
+            <ImageView robinwatch:background="@drawable/menu_return" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView robinwatch:textSize="18sp" robinwatch:textColor="@color/main_font_green" robinwatch:id="@+id/activity_title_tv" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginRight="15dp" robinwatch:text="@string/macro_title" robinwatch:layout_centerInParent="true" />
+        <TextView robinwatch:textSize="13sp" robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/finish_TextView" robinwatch:padding="8dp" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginRight="7dp" robinwatch:text="@string/macro_finish" robinwatch:layout_alignParentRight="true" robinwatch:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ScrollView robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent">
+        <LinearLayout robinwatch:orientation="vertical" robinwatch:focusable="true" robinwatch:focusableInTouchMode="true" robinwatch:layout_width="match_parent" robinwatch:layout_height="wrap_content"
+            <LinearLayout robinwatch:orientation="vertical" robinwatch:background="@drawable/gradientbutton_transparent_edge_green" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x5a01" robinwatch:layout_marginLeft="15dp" robinwatch:layout_marginTop="15dp" robinwatch:layout_marginRight="15dp" robinwatch:weightSum="2.0">
+                <RelativeLayout robinwatch:focusable="true" robinwatch:focusableInTouchMode="true" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x1" robinwatch:layout_marginLeft="15dp" robinwatch:layout_marginRight="15dp" robinwatch:layout_weight="1.0">
+                    <View robinwatch:background="@color/main_diver_gray" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x100" robinwatch:layout_marginLeft="15dp" robinwatch:layout_marginRight="15dp" robinwatch:layout_alignParentBottom="true" />
+                    <TextView robinwatch:textSize="13sp" robinwatch:textColor="@color/custommacro_font_gray" robinwatch:id="@+id/gropNameTiltle_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="15dp" robinwatch:text="@string/macro_name" robinwatch:layout_centerVertical="true" />
+                    <EditText robinwatch:textSize="18sp" robinwatch:textColor="@color/main_bk_blue" robinwatch:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" robinwatch:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" robinwatch:id="@+id/macroName_EditText" robinwatch:background="#00000000" robinwatch:visibility="visible" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginRight="15dp" robinwatch:hint="" robinwatch:singleLine="true" robinwatch:layout_alignParentRight="true" robinwatch:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout robinwatch:id="@+id/triggerkey_RelativeLayout" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x1" robinwatch:layout_marginLeft="15dp" robinwatch:layout_marginRight="15dp" robinwatch:layout_weight="1.0">
+                    <TextView robinwatch:textColor="@color/custommacro_font_gray" robinwatch:id="@+id/triggerkeytitle_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="15dp" robinwatch:text="@string/macro_tigger" robinwatch:layout_centerVertical="true" />
+                    <TextView robinwatch:textColor="@color/main_bk_blue" robinwatch:id="@+id/triggerkey_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginRight="15dp" robinwatch:text="A" robinwatch:layout_alignParentRight="true" robinwatch:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout robinwatch:id="@+id/recordMacro_RelativeLayout" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="15dp" robinwatch:layout_marginTop="15dp">
+                <com.obins.anne.viewpart.RingView robinwatch:id="@+id/right_RingView" robinwatch:layout_width="UNKNOWN_DATA_0x2601" robinwatch:layout_height="UNKNOWN_DATA_0x2601" robinwatch:fill_color="@color/red" robinwatch:color_wheel_radius="11dp" robinwatch:color_wheel_thickness="1dp" />
+                <RelativeLayout robinwatch:id="@+id/right_RelativeLayout" robinwatch:layout_width="UNKNOWN_DATA_0x2601" robinwatch:layout_height="UNKNOWN_DATA_0x2601">
+                    <com.obins.anne.viewpart.CircleView robinwatch:id="@+id/right_CircleView" robinwatch:layout_width="UNKNOWN_DATA_0xc01" robinwatch:layout_height="UNKNOWN_DATA_0xc01" robinwatch:layout_centerInParent="true" robinwatch:fill_color="@color/red" />
+                </RelativeLayout>
+                <TextView robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/recordMacro_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:text="@string/macro_record" robinwatch:layout_toRightOf="@+id/right_RelativeLayout" robinwatch:layout_centerVertical="true" />
+                <TextView robinwatch:textSize="9sp" robinwatch:textColor="@color/red" robinwatch:id="@+id/recordMacro_tip_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="15dp" robinwatch:text="录制宏" robinwatch:layout_toRightOf="@+id/recordMacro_TextView" robinwatch:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout robinwatch:layout_width="match_parent" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="15dp" robinwatch:layout_marginTop="15dp" robinwatch:layout_marginRight="15dp">
+                <TextView robinwatch:textColor="@color/main_bk_blue" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:text="@string/macro_list" robinwatch:layout_centerVertical="true" />
+                <RelativeLayout robinwatch:id="@+id/RelativeLayout_1" robinwatch:layout_width="UNKNOWN_DATA_0x1901" robinwatch:layout_height="UNKNOWN_DATA_0x1901" robinwatch:layout_alignParentRight="true">
+                    <ImageView robinwatch:background="@drawable/micro_right" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout robinwatch:id="@+id/RelativeLayout_2" robinwatch:layout_width="UNKNOWN_DATA_0x1901" robinwatch:layout_height="UNKNOWN_DATA_0x1901" robinwatch:layout_marginRight="15dp" robinwatch:layout_toLeftOf="@+id/RelativeLayout_1">
+                    <ImageView robinwatch:background="@drawable/micro_left" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout robinwatch:id="@+id/RelativeLayout_3" robinwatch:layout_width="UNKNOWN_DATA_0x1901" robinwatch:layout_height="UNKNOWN_DATA_0x1901" robinwatch:layout_marginRight="15dp" robinwatch:layout_toLeftOf="@+id/RelativeLayout_2">
+                    <ImageView robinwatch:background="@drawable/micro_del" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout robinwatch:id="@+id/RelativeLayout_4" robinwatch:layout_width="UNKNOWN_DATA_0x1901" robinwatch:layout_height="UNKNOWN_DATA_0x1901" robinwatch:layout_marginRight="15dp" robinwatch:layout_toLeftOf="@+id/RelativeLayout_3">
+                    <ImageView robinwatch:background="@drawable/micro_add" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout robinwatch:id="@+id/RelativeLayout_5" robinwatch:visibility="invisible" robinwatch:layout_width="UNKNOWN_DATA_0x1901" robinwatch:layout_height="UNKNOWN_DATA_0x1901" robinwatch:layout_marginRight="15dp" robinwatch:layout_toLeftOf="@+id/RelativeLayout_4">
+                    <ImageView robinwatch:background="@drawable/micro_modify" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_centerInParent="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <View robinwatch:background="@color/main_divider_gray" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x100" robinwatch:layout_marginLeft="15dp" robinwatch:layout_marginTop="5dp" robinwatch:layout_marginRight="15dp" robinwatch:layout_marginBottom="15dp" />
+            <com.obins.anne.viewpart.ListViewForScrollView robinwatch:id="@+id/listview" robinwatch:visibility="gone" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent" robinwatch:layout_marginLeft="15dp" robinwatch:layout_marginTop="15dp" robinwatch:layout_marginRight="15dp" robinwatch:divider="@color/main_divider_gray" robinwatch:dividerHeight="1px" />
+            <com.obins.anne.viewpart.GridViewForScrollView robinwatch:id="@+id/gridView" robinwatch:scrollbars="UNKNOWN_DATA_0x0" robinwatch:layout_width="match_parent" robinwatch:layout_height="wrap_content" robinwatch:numColumns="UNKNOWN_DATA_0x4" />
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" />
+</LinearLayout>

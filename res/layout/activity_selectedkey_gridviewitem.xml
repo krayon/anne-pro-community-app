@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/main_bk_gray" android:padding="3dp" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@+id/relativeLayout" android:background="@color/red" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
+        <TextView android:textColor="@color/main_bk_white" android:id="@+id/name_TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FN" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

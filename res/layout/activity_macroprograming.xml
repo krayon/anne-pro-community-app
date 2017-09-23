@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.obins.anne" robinwatch:orientation="vertical" robinwatch:background="@color/main_bk_gray" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent" robinwatch:weightSum="2.0">
+    <RelativeLayout robinwatch:id="@+id/tip_RelativeLayout" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x3001"
+        <RelativeLayout robinwatch:id="@+id/back_RelativeLayout" robinwatch:paddingLeft="15dp" robinwatch:layout_width="UNKNOWN_DATA_0x3001" robinwatch:layout_height="UNKNOWN_DATA_0x3001">
+            <ImageView robinwatch:background="@drawable/menu_return" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView robinwatch:textSize="18sp" robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/activity_title_tv" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginRight="10dp" robinwatch:text="宏设置" robinwatch:layout_centerInParent="true" />
+        <TextView robinwatch:textSize="13sp" robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/finfish_TextView" robinwatch:padding="8dp" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:text="完成" robinwatch:layout_alignParentRight="true" robinwatch:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout robinwatch:id="@+id/additem_RelativeLayout" robinwatch:focusable="true" robinwatch:focusableInTouchMode="true" robinwatch:layout_width="match_parent" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="10dp" robinwatch:layout_marginTop="10dp" robinwatch:layout_marginRight="10dp">
+        <TextView robinwatch:textSize="11sp" robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/gropNameTiltle_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:text="组名" />
+        <EditText robinwatch:textSize="16sp" robinwatch:textColor="@color/main_bk_white" robinwatch:id="@+id/gropName_EditText" robinwatch:background="#00000000" robinwatch:padding="6dp" robinwatch:layout_width="match_parent" robinwatch:layout_height="wrap_content" robinwatch:layout_marginTop="5dp" robinwatch:hint="请输入组名称" robinwatch:singleLine="true" robinwatch:layout_below="@+id/gropNameTiltle_TextView" />
+    </RelativeLayout>
+    <View robinwatch:background="@color/main_divider_gray" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x100" robinwatch:layout_marginLeft="10dp" robinwatch:layout_marginRight="10dp" />
+    <RelativeLayout robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x2601" robinwatch:layout_marginLeft="10dp" robinwatch:layout_marginTop="20dp" robinwatch:layout_marginRight="10dp">
+        <TextView robinwatch:textColor="@color/main_bk_white" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:text="宏成员" robinwatch:layout_centerVertical="true" />
+        <RelativeLayout robinwatch:id="@+id/add_RelativeLayout" robinwatch:layout_width="UNKNOWN_DATA_0x2601" robinwatch:layout_height="UNKNOWN_DATA_0x2601" robinwatch:layout_alignParentRight="true">
+            <View robinwatch:background="@color/main_bk_white" robinwatch:layout_width="UNKNOWN_DATA_0x300" robinwatch:layout_height="UNKNOWN_DATA_0x1401" robinwatch:layout_centerInParent="true" />
+            <View robinwatch:background="@color/main_bk_white" robinwatch:layout_width="UNKNOWN_DATA_0x1401" robinwatch:layout_height="UNKNOWN_DATA_0x300" robinwatch:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View robinwatch:background="@color/main_divider_gray" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x100" robinwatch:layout_marginLeft="10dp" robinwatch:layout_marginRight="10dp" />
+    <ListView robinwatch:id="@+id/listview" robinwatch:layout_width="wrap_content" robinwatch:layout_height="match_parent" robinwatch:layout_marginLeft="10dp" robinwatch:layout_marginTop="10dp" robinwatch:layout_marginRight="10dp" robinwatch:divider="@color/main_divider_gray" robinwatch:dividerHeight="1px" robinwatch:footerDividersEnabled="true" />
+</LinearLayout>

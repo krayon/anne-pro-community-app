@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/main_bk_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/tip_RelativeLayout" android:background="@color/actionbar_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001"
+        <RelativeLayout android:id="@+id/backBtn" android:background="@drawable/click_actionbar_black_gray" android:paddingLeft="5dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true">
+            <ImageView android:background="@drawable/menu_return" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:id="@+id/verter_line" android:background="#110000" android:layout_width="UNKNOWN_DATA_0x200" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_toRightOf="@+id/backBtn" android:layout_centerVertical="true" />
+        <TextView android:textSize="18sp" android:textColor="@color/main_bk_white" android:id="@+id/activity_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="" android:layout_toRightOf="@+id/verter_line" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="18sp" android:textColor="@color/font_color_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:text="" />
+    <EditText android:textSize="18sp" android:textColor="@color/font_color_gray" android:id="@+id/devicename_et" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:singleLine="true" android:maxLength="20" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:textStyle="bold" android:textColor="@color/main_bk_white" android:id="@+id/ok_btn" android:background="@drawable/gradientbutton_cyan" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2d01" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp" android:text="" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

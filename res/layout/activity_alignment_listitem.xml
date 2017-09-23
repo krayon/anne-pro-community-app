@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.obins.anne" robinwatch:background="@color/main_bk_gray" robinwatch:layout_width="match_parent" robinwatch:layout_height="wrap_content">
+    <ImageView robinwatch:id="@+id/layout_kb_ImageView" robinwatch:background="@drawable/layout_select_off" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="15dp" robinwatch:layout_centerVertical="true" />
+    <RelativeLayout robinwatch:paddingTop="20dp" robinwatch:paddingBottom="20dp" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="10dp" robinwatch:layout_toRightOf="@+id/layout_kb_ImageView" robinwatch:layout_centerVertical="true">
+        <TextView robinwatch:textSize="16sp" robinwatch:textStyle="bold" robinwatch:textColor="@color/main_font_orange" robinwatch:id="@+id/name_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:text="预设配列1" />
+        <TextView robinwatch:textSize="13sp" robinwatch:textColor="@color/main_font_gray" robinwatch:id="@+id/content_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginTop="5dp" robinwatch:text="预设配列1" robinwatch:layout_below="@+id/name_TextView" />
+        <LinearLayout robinwatch:orientation="horizontal" robinwatch:visibility="gone" robinwatch:layout_width="match_parent" robinwatch:layout_height="UNKNOWN_DATA_0x501" robinwatch:layout_marginTop="5dp" robinwatch:weightSum="5.0" robinwatch:layout_below="@+id/content_TextView">
+            <View robinwatch:id="@+id/view1" robinwatch:background="@color/red" robinwatch:layout_width="UNKNOWN_DATA_0x1" robinwatch:layout_height="match_parent" robinwatch:layout_marginRight="2dp" robinwatch:layout_weight="1.0" />
+            <View robinwatch:id="@+id/view2" robinwatch:background="@color/red" robinwatch:layout_width="UNKNOWN_DATA_0x1" robinwatch:layout_height="match_parent" robinwatch:layout_marginRight="2dp" robinwatch:layout_weight="1.0" />
+            <View robinwatch:id="@+id/view3" robinwatch:background="@color/red" robinwatch:layout_width="UNKNOWN_DATA_0x1" robinwatch:layout_height="match_parent" robinwatch:layout_marginRight="2dp" robinwatch:layout_weight="1.0" />
+            <View robinwatch:id="@+id/view4" robinwatch:background="@color/red" robinwatch:layout_width="UNKNOWN_DATA_0x1" robinwatch:layout_height="match_parent" robinwatch:layout_marginRight="2dp" robinwatch:layout_weight="1.0" />
+            <View robinwatch:layout_width="UNKNOWN_DATA_0x1" robinwatch:layout_height="match_parent" robinwatch:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout robinwatch:id="@+id/selected_RelativeLayout" robinwatch:padding="15dp" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_alignParentRight="true" robinwatch:layout_centerVertical="true">
+        <ImageView robinwatch:id="@+id/selected_ImageView" robinwatch:background="@drawable/micro_check_off" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

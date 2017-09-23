@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="3.0">
+        <RelativeLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <CheckBox android:id="@+id/allkey_CheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/light_effect_satic_color_setting_all" />
+            <CheckBox android:id="@+id/bigkey_CheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/light_effect_satic_color_setting_side" android:layout_below="@+id/allkey_CheckBox" />
+            <CheckBox android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/numkey_CheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/light_effect_satic_color_setting_number" android:layout_below="@+id/bigkey_CheckBox" />
+            <CheckBox android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/letterkey_CheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/light_effect_satic_color_setting_letter" android:layout_below="@+id/numkey_CheckBox" />
+            <CheckBox android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/cancle_CheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/light_effect_satic_color_setting_cancel" android:layout_below="@+id/letterkey_CheckBox" />
+        </RelativeLayout>
+        <GridView android:id="@+id/color_GridView" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:numColumns="UNKNOWN_DATA_0x3" android:layout_weight="2.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.obins.anne" robinwatch:id="@+id/bk_RelativeLayout" robinwatch:background="@color/listitem_bk_darkblue" robinwatch:paddingTop="10dp" robinwatch:paddingBottom="10dp" robinwatch:layout_width="match_parent" robinwatch:layout_height="match_parent">
+    <TextView robinwatch:textSize="15sp" robinwatch:id="@+id/num_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="10dp" robinwatch:text="1" robinwatch:layout_centerVertical="true" />
+    <TextView robinwatch:textSize="15sp" robinwatch:id="@+id/data_TextView" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_marginLeft="30dp" robinwatch:text="0MS" robinwatch:layout_toRightOf="@+id/num_TextView" robinwatch:layout_centerVertical="true" />
+    <ImageView robinwatch:id="@+id/up_ImageView" robinwatch:background="@drawable/up_arrow" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_toRightOf="@+id/data_TextView" robinwatch:layout_centerVertical="true" />
+    <ImageView robinwatch:id="@+id/down_ImageView" robinwatch:background="@drawable/down_arrow" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_toRightOf="@+id/data_TextView" robinwatch:layout_centerVertical="true" />
+    <ImageView robinwatch:id="@+id/selected_ImageView" robinwatch:background="@drawable/menu_return" robinwatch:layout_width="wrap_content" robinwatch:layout_height="wrap_content" robinwatch:layout_alignParentRight="true" robinwatch:layout_centerVertical="true" />
+</RelativeLayout>

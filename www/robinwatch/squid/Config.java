@@ -1,0 +1,57 @@
+package www.robinwatch.squid;
+
+import com.obins.anne.utils.AppConfig;
+
+public class Config {
+    static String AES_KEY = "rw53592018140410";
+    public static String BaseIp = "api.robinwatch.com";
+    static String BindDevice = "/api/bindDevice";
+    static String BindDevice_sign = "api/bindDevice";
+    static String ChargeControl = "/api/charge";
+    public static final String DOWNLOAD_ERRO = "10001";
+    public static final String DOWNLOAD_SUCCESS = "10000";
+    static String DelDevice = "/api/delDevice";
+    static String DelDevice_sign = "api/delDevice";
+    static String DelayTrunOff = "/api/RwDelayOff";
+    static String DeviceNickname = "/api/deviceNickName";
+    static String Duang = "/api/duang";
+    public static String Duang_sign = "api/duang";
+    static String FLControl = "/api/RwFl";
+    public static final String FW_UPDATE_ERRO = "10002";
+    public static final String FW_UPDATE_GOING = "10001";
+    public static final String FW_UPDATE_SUCCESS = "10000";
+    static String ForgetPwd = "/api/forgetPwd";
+    static String ForgetPwd_sign = "api/forgetPwd";
+    static int FwUpdatePort = 2018;
+    public static final int GETALLLANDEVICESTATE_NUM = 4;
+    public static final long GETALLLANDEVICESTATE_PRETIME = 400;
+    public static final long GETLANDEVICESTATE_TIMEOUT = 1000;
+    static String GPIO = "/api/gpio";
+    static String GetDevices = "/api/getDevState";
+    static String GetDevices_sign = "api/getDevState";
+    static String Http = "http://";
+    public static final long LANCTLDEVICE_LONGTIMEOUT = 1000;
+    public static final long LANCTLDEVICE_TIMEOUT = 100;
+    static String LED = "/api/led";
+    static int LanBroadcastPort = 5359;
+    static int LanControlPort = 2018;
+    static String Login = "/api/login";
+    static String ModifyPassword = "/api/modifyPwd";
+    static String ModifyPassword_sign = "api/modifyPwd";
+    static String MsgNum = "/api/getSmsIdentificationCode";
+    static String MsgNum_sign = "api/getSmsIdentificationCode";
+    static String OTAUpdate = "/api/OTAUpdateObins";
+    static String PWM = "/api/pwm";
+    static String RainbowPath = "/rainbow";
+    static String Register = "/api/register";
+    static String Register_sign = "api/register";
+    static String SquidPath = "/rainbow";
+    static String appUpdate = "/api/appUpdateObins";
+    static String brocastData = "opensesame";
+    static String downloadFwPath = AppConfig.SERVER_IP;
+    static String duangPath = AppConfig.SERVER_IP;
+    public static int flag = 1;
+    static String guardMode = "/api/guard";
+    static String setAlarm = "/api/alarm";
+    static String wifiReset = "/api/WifiRest";
+}
